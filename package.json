@@ -2,7 +2,7 @@
   "name": "only-config",
   "version": "1.0.0",
   "description": "config manager based on Joi schema with subscription capabilities",
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "type": "module",
   "license": "MIT",
   "author": "Nir winkler <madvinking@gmail.com>",
