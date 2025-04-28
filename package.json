@@ -1,0 +1,24 @@
+{
+  "name": "only-config",
+  "version": "1.0.0",
+  "description": "config manager based on Joi schema with subscription capabilities",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "author": "Nir winkler <madvinking@gmail.com>",
+  "scripts": {
+    "upkg": "ncu -u --packageFile ./package.json",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "deepmerge": "4.3.1",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "joi": "17.13.3",
+    "vitest": "0.34.2"
+  },
+  "peerDependencies": {
+    "joi": "17.x.x"
+  }
+}
