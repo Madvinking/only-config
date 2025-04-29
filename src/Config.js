@@ -2,7 +2,7 @@
  * Config manager based on Joi schema with subscription capabilities.
  */
 import Joi from 'joi';
-import { Observable } from './Observable';
+import { Observable } from './Observable.js';
 import _ from 'lodash';
 import deepMerge from 'deepmerge';
 
